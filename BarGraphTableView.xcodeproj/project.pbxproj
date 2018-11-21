@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EF9DDB21A53AF6003EF7A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EF9DDA21A53AF6003EF7A2 /* AppDelegate.m */; };
+		04EF9DDE21A53AF6003EF7A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EF9DDD21A53AF6003EF7A2 /* ViewController.m */; };
+		04EF9DE121A53AF6003EF7A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EF9DDF21A53AF6003EF7A2 /* Main.storyboard */; };
+		04EF9DE321A53AF8003EF7A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EF9DE221A53AF8003EF7A2 /* Assets.xcassets */; };
+		04EF9DE621A53AF8003EF7A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EF9DE421A53AF8003EF7A2 /* LaunchScreen.storyboard */; };
+		04EF9DE921A53AF8003EF7A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EF9DE821A53AF8003EF7A2 /* main.m */; };
+		04EF9DF321A53AF8003EF7A2 /* BarGraphTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EF9DF221A53AF8003EF7A2 /* BarGraphTableViewTests.m */; };
+		04EF9DFE21A53AF8003EF7A2 /* BarGraphTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EF9DFD21A53AF8003EF7A2 /* BarGraphTableViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04EF9DEF21A53AF8003EF7A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EF9DCE21A53AF6003EF7A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EF9DD521A53AF6003EF7A2;
+			remoteInfo = BarGraphTableView;
+		};
+		04EF9DFA21A53AF8003EF7A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EF9DCE21A53AF6003EF7A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EF9DD521A53AF6003EF7A2;
+			remoteInfo = BarGraphTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EF9DD621A53AF6003EF7A2 /* BarGraphTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarGraphTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EF9DD921A53AF6003EF7A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04EF9DDA21A53AF6003EF7A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04EF9DDC21A53AF6003EF7A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04EF9DDD21A53AF6003EF7A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04EF9DE021A53AF6003EF7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04EF9DE221A53AF8003EF7A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04EF9DE521A53AF8003EF7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04EF9DE721A53AF8003EF7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EF9DE821A53AF8003EF7A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04EF9DEE21A53AF8003EF7A2 /* BarGraphTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarGraphTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EF9DF221A53AF8003EF7A2 /* BarGraphTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarGraphTableViewTests.m; sourceTree = "<group>"; };
+		04EF9DF421A53AF8003EF7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EF9DF921A53AF8003EF7A2 /* BarGraphTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarGraphTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EF9DFD21A53AF8003EF7A2 /* BarGraphTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarGraphTableViewUITests.m; sourceTree = "<group>"; };
+		04EF9DFF21A53AF8003EF7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EF9DD321A53AF6003EF7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EF9DEB21A53AF8003EF7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EF9DF621A53AF8003EF7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EF9DCD21A53AF6003EF7A2 = {
+			isa = PBXGroup;
+			children = (
+				04EF9DD821A53AF6003EF7A2 /* BarGraphTableView */,
+				04EF9DF121A53AF8003EF7A2 /* BarGraphTableViewTests */,
+				04EF9DFC21A53AF8003EF7A2 /* BarGraphTableViewUITests */,
+				04EF9DD721A53AF6003EF7A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04EF9DD721A53AF6003EF7A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EF9DD621A53AF6003EF7A2 /* BarGraphTableView.app */,
+				04EF9DEE21A53AF8003EF7A2 /* BarGraphTableViewTests.xctest */,
+				04EF9DF921A53AF8003EF7A2 /* BarGraphTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EF9DD821A53AF6003EF7A2 /* BarGraphTableView */ = {
+			isa = PBXGroup;
+			children = (
+				04EF9DD921A53AF6003EF7A2 /* AppDelegate.h */,
+				04EF9DDA21A53AF6003EF7A2 /* AppDelegate.m */,
+				04EF9DDC21A53AF6003EF7A2 /* ViewController.h */,
+				04EF9DDD21A53AF6003EF7A2 /* ViewController.m */,
+				04EF9DDF21A53AF6003EF7A2 /* Main.storyboard */,
+				04EF9DE221A53AF8003EF7A2 /* Assets.xcassets */,
+				04EF9DE421A53AF8003EF7A2 /* LaunchScreen.storyboard */,
+				04EF9DE721A53AF8003EF7A2 /* Info.plist */,
+				04EF9DE821A53AF8003EF7A2 /* main.m */,
+			);
+			path = BarGraphTableView;
+			sourceTree = "<group>";
+		};
+		04EF9DF121A53AF8003EF7A2 /* BarGraphTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				04EF9DF221A53AF8003EF7A2 /* BarGraphTableViewTests.m */,
+				04EF9DF421A53AF8003EF7A2 /* Info.plist */,
+			);
+			path = BarGraphTableViewTests;
+			sourceTree = "<group>";
+		};
+		04EF9DFC21A53AF8003EF7A2 /* BarGraphTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04EF9DFD21A53AF8003EF7A2 /* BarGraphTableViewUITests.m */,
+				04EF9DFF21A53AF8003EF7A2 /* Info.plist */,
+			);
+			path = BarGraphTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EF9DD521A53AF6003EF7A2 /* BarGraphTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EF9E0221A53AF8003EF7A2 /* Build configuration list for PBXNativeTarget "BarGraphTableView" */;
+			buildPhases = (
+				04EF9DD221A53AF6003EF7A2 /* Sources */,
+				04EF9DD321A53AF6003EF7A2 /* Frameworks */,
+				04EF9DD421A53AF6003EF7A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarGraphTableView;
+			productName = BarGraphTableView;
+			productReference = 04EF9DD621A53AF6003EF7A2 /* BarGraphTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04EF9DED21A53AF8003EF7A2 /* BarGraphTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EF9E0521A53AF8003EF7A2 /* Build configuration list for PBXNativeTarget "BarGraphTableViewTests" */;
+			buildPhases = (
+				04EF9DEA21A53AF8003EF7A2 /* Sources */,
+				04EF9DEB21A53AF8003EF7A2 /* Frameworks */,
+				04EF9DEC21A53AF8003EF7A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EF9DF021A53AF8003EF7A2 /* PBXTargetDependency */,
+			);
+			name = BarGraphTableViewTests;
+			productName = BarGraphTableViewTests;
+			productReference = 04EF9DEE21A53AF8003EF7A2 /* BarGraphTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04EF9DF821A53AF8003EF7A2 /* BarGraphTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EF9E0821A53AF8003EF7A2 /* Build configuration list for PBXNativeTarget "BarGraphTableViewUITests" */;
+			buildPhases = (
+				04EF9DF521A53AF8003EF7A2 /* Sources */,
+				04EF9DF621A53AF8003EF7A2 /* Frameworks */,
+				04EF9DF721A53AF8003EF7A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EF9DFB21A53AF8003EF7A2 /* PBXTargetDependency */,
+			);
+			name = BarGraphTableViewUITests;
+			productName = BarGraphTableViewUITests;
+			productReference = 04EF9DF921A53AF8003EF7A2 /* BarGraphTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EF9DCE21A53AF6003EF7A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Yongya;
+				TargetAttributes = {
+					04EF9DD521A53AF6003EF7A2 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					04EF9DED21A53AF8003EF7A2 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 04EF9DD521A53AF6003EF7A2;
+					};
+					04EF9DF821A53AF8003EF7A2 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 04EF9DD521A53AF6003EF7A2;
+					};
+				};
+			};
+			buildConfigurationList = 04EF9DD121A53AF6003EF7A2 /* Build configuration list for PBXProject "BarGraphTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04EF9DCD21A53AF6003EF7A2;
+			productRefGroup = 04EF9DD721A53AF6003EF7A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EF9DD521A53AF6003EF7A2 /* BarGraphTableView */,
+				04EF9DED21A53AF8003EF7A2 /* BarGraphTableViewTests */,
+				04EF9DF821A53AF8003EF7A2 /* BarGraphTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EF9DD421A53AF6003EF7A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EF9DE621A53AF8003EF7A2 /* LaunchScreen.storyboard in Resources */,
+				04EF9DE321A53AF8003EF7A2 /* Assets.xcassets in Resources */,
+				04EF9DE121A53AF6003EF7A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EF9DEC21A53AF8003EF7A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EF9DF721A53AF8003EF7A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EF9DD221A53AF6003EF7A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EF9DDE21A53AF6003EF7A2 /* ViewController.m in Sources */,
+				04EF9DE921A53AF8003EF7A2 /* main.m in Sources */,
+				04EF9DDB21A53AF6003EF7A2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EF9DEA21A53AF8003EF7A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EF9DF321A53AF8003EF7A2 /* BarGraphTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EF9DF521A53AF8003EF7A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EF9DFE21A53AF8003EF7A2 /* BarGraphTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04EF9DF021A53AF8003EF7A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EF9DD521A53AF6003EF7A2 /* BarGraphTableView */;
+			targetProxy = 04EF9DEF21A53AF8003EF7A2 /* PBXContainerItemProxy */;
+		};
+		04EF9DFB21A53AF8003EF7A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EF9DD521A53AF6003EF7A2 /* BarGraphTableView */;
+			targetProxy = 04EF9DFA21A53AF8003EF7A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04EF9DDF21A53AF6003EF7A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EF9DE021A53AF6003EF7A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04EF9DE421A53AF8003EF7A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EF9DE521A53AF8003EF7A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04EF9E0021A53AF8003EF7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04EF9E0121A53AF8003EF7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04EF9E0321A53AF8003EF7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarGraphTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yongya.BarGraphTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04EF9E0421A53AF8003EF7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarGraphTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yongya.BarGraphTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04EF9E0621A53AF8003EF7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarGraphTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yongya.BarGraphTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarGraphTableView.app/BarGraphTableView";
+			};
+			name = Debug;
+		};
+		04EF9E0721A53AF8003EF7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarGraphTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yongya.BarGraphTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarGraphTableView.app/BarGraphTableView";
+			};
+			name = Release;
+		};
+		04EF9E0921A53AF8003EF7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarGraphTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yongya.BarGraphTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarGraphTableView;
+			};
+			name = Debug;
+		};
+		04EF9E0A21A53AF8003EF7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarGraphTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yongya.BarGraphTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarGraphTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EF9DD121A53AF6003EF7A2 /* Build configuration list for PBXProject "BarGraphTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EF9E0021A53AF8003EF7A2 /* Debug */,
+				04EF9E0121A53AF8003EF7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EF9E0221A53AF8003EF7A2 /* Build configuration list for PBXNativeTarget "BarGraphTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EF9E0321A53AF8003EF7A2 /* Debug */,
+				04EF9E0421A53AF8003EF7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EF9E0521A53AF8003EF7A2 /* Build configuration list for PBXNativeTarget "BarGraphTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EF9E0621A53AF8003EF7A2 /* Debug */,
+				04EF9E0721A53AF8003EF7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EF9E0821A53AF8003EF7A2 /* Build configuration list for PBXNativeTarget "BarGraphTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EF9E0921A53AF8003EF7A2 /* Debug */,
+				04EF9E0A21A53AF8003EF7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04EF9DCE21A53AF6003EF7A2 /* Project object */;
+}
