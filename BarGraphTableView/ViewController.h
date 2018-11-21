@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic,strong)UIScrollView *scrollViewDetail;
+@property (nonatomic,strong)UITableView *tableViewTags;
 
 @end
 
